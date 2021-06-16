@@ -4,6 +4,7 @@ afl-as
 afl-clang
 afl-clang++
 afl-fuzz
+ln-fuzz
 afl-g++
 afl-gcc
 afl-gotcpu
