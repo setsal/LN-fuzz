@@ -31,7 +31,7 @@ RUN git clone https://github.com/profuzzbench/aflnet.git && \
     make clean all && \
     cd llvm_mode && make
 
-ADD https://api.github.com/repos/setsal/LN-fuzz/git/refs/heads/master version.json                                                
+ADD https://api.github.com/repos/setsal/LN-fuzz/git/refs/heads/main version.json                                                
 RUN git clone https://github.com/setsal/LN-fuzz.git lnfuzz && \                                                                   
     cd lnfuzz/src && \                                                                                                            
     make clean all && \                                                                                                       
