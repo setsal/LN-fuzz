@@ -1,0 +1,37 @@
+# Binaries produced by "make".
+afl-analyze
+afl-as
+afl-clang
+afl-clang++
+afl-fuzz
+afl-g++
+afl-gcc
+afl-gotcpu
+afl-showmap
+aflnet-showmap
+aflnet-showmap-nwe
+afl-tmin
+aflnet-replay
+aflnet-replay-simple
+aflnet.o
+as
+
+# Binaries produced by "make -C llvm_mode"
+afl-clang-fast
+afl-clang-fast++
+afl-llvm-pass.so
+afl-llvm-rt-32.o
+afl-llvm-rt-64.o
+afl-llvm-rt.o
+
+# User
+a.out
+util.o
+afl-fuzz
+peda*
+.gdb*
+.vscode
+
+# out
+out-*
+results-*
