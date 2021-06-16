@@ -1,4 +1,4 @@
-# Fuzz bench
+# Benchmark
 
 Stateful fuzz bench with script modified and added
 

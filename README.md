@@ -4,13 +4,15 @@
 
 # Installation
 
-參考 AFLNet 設計，參數部分新增一些可以自定義調整的部分
-
 ## Prerequisites
 
 ```bash
+# ln-fuzz
 sudo apt-get install clang
 sudo apt-get install graphviz-dev
+
+# benchmark script
+pip install pandas matplotlib click numpy
 ```
 
 ## Compile
